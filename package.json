@@ -1,0 +1,17 @@
+{
+  "name": "koa-seed",
+  "version": "0.0.1",
+  "description": "seed for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "phantomk",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "next"
+  }
+}
