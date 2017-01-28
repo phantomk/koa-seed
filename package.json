@@ -4,7 +4,8 @@
   "description": "seed for koa",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "ava test"
   },
   "keywords": [
     "koa"
@@ -21,11 +22,12 @@
     "koa-static": "^2.0.0"
   },
   "devDependencies": {
+    "ava": "^0.17.0",
     "eslint": "^3.13.1",
     "eslint-config-airbnb-base": "^11.0.1",
     "eslint-plugin-import": "^2.2.0"
   },
   "engines": {
     "node": ">=7.0.0"
-  },
+  }
 }
